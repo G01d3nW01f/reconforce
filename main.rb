@@ -81,6 +81,13 @@ completion =
 
       scanner = DNS_Enum.new(host).scan
 
+    when Readline.line_buffer =~ /subdomain-finder/i
+
+      puts "[+]Enter the host for subdomain scan".red
+      host = gets.chomp
+
+      scanner = SubdomainFinder.new(host).scan
+
 
     when Readline.line_buffer =~ /help/i
       puts "Available commands:\n" + "#{CMDS.join("\n")}".red
@@ -105,5 +112,3 @@ while line = Readline.readline("[h4ck3r]>> ")
   puts completion.call
   break if line =~ /^quit*/i or line =~ /^exit$/i
 end
-
-
