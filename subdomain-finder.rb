@@ -1,5 +1,6 @@
 require 'resolv'
 
+
 class SubdomainFinder
   def initialize(target)
     @target = target
@@ -14,10 +15,11 @@ class SubdomainFinder
     end
 
     if subdomains.any?
-      puts "Subdomains found:"
+      puts "Subdomains found:".blue
       puts subdomains
+    
     else
-      puts "No subdomains found"
+      puts "No subdomains found".red
     end
 
   end
