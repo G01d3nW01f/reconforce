@@ -33,8 +33,20 @@ target url enter direct in terminal
 dns-enumerate command: easy dns enumeration
 
 target host enter direct in terminal
+
 ![image](https://github.com/G01d3nW01f/reconforce/assets/75846902/dc621f12-fc85-4d47-93a6-d9efdcf3f3aa)
 
 
+target subdomain-finder: easy subdomain finding 
+
+enter the domain 
+
+![image](https://github.com/G01d3nW01f/reconforce/assets/75846902/265c3579-8674-408a-b502-70cafd5daadd)
+
+taget sql-injection-detector: easy sql injection vulnerability 
+
+enter the target url 
+
+![image](https://github.com/G01d3nW01f/reconforce/assets/75846902/5dbc6858-c072-4ad7-abd6-b2e1be9e6cda)
 
 
